@@ -8,3 +8,7 @@ wins = {
     wimbledon: ["1976", "1977", "1978", "1979", "1980"]
   }
 }
+
+BJORN_BORG["tournament_wins"] = wins
+
+puts "Bjorn won in #{BJORN_BORG["tournament_wins"][:tournament_wins][:wimbledon][0]}  and in #{BJORN_BORG["tournament_wins"][:tournament_wins][:wimbledon][-1]}."
